@@ -1,9 +1,12 @@
 // ==UserScript==
 // @name         nicoRtmpWatch
-// @namespace    https://github.com/himananiito/nicoRtmpWatch
-// @version      0.1
 // @description  live2.nicovideo.jp RTMP test
+// @version      0.2
+// @namespace    https://github.com/himananiito/nicoRtmpWatch
 // @author       himananiito
+// @encoding     utf-8
+// @updateURL    https://raw.githubusercontent.com/himananiito/nicoRtmpWatch/master/nicortmp.js
+// @downloadURL  https://raw.githubusercontent.com/himananiito/nicoRtmpWatch/master/nicortmp.js
 // @match        http://live2.nicovideo.jp/watch/lv*
 // @grant        none
 // @run-at       document-end
