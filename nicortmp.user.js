@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         nicoRtmpWatch
 // @description  live2.nicovideo.jp RTMP test
-// @version      0.2
+// @version      0.3
 // @namespace    https://github.com/himananiito/nicoRtmpWatch
 // @author       himananiito
 // @encoding     utf-8
@@ -102,6 +102,20 @@ window.insertFlash = function() {
         if(body_area) {
             body_area.remove();
         }
+
+        // v0.3 added
+        (function(){
+            var a = setTimeout("console.log()", 1000);
+            for(var i = 0; i <= a; i++) {
+                clearTimeout(i);
+            }
+        })();
+        (function(){
+            var a = setInterval("console.log()", 1000);
+            for(var i = 0; i <= a; i++) {
+                clearInterval(i);
+            }
+        })();
     }
 }
 
